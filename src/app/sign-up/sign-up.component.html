@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="row">
+    <div class="col s8 offset-s2" >
+      <div class="card">
+        <div class="sm-jumbotron center-align #0d47a1 blue darken-4 white-text">
+          <h2>User Registration</h2>
+        </div>
+        <form class="col s12 white" #userRegistrationForm="ngForm">
+          <div class="row">
+              <div class="input-field col s6">
+                  <input type="text" name="UserName" #UserName="ngModel" ngModel>
+                  <label>User Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input type="text" name="Password" #Password="ngModel" ngModel>
+                  <label>Password</label>
+                </div>
+          </div>
+          <div class="row">
+              <div class="input-field col s12">
+                  <input type="Email" name="Email" #Email="ngModel" ngModel>
+                  <label>Email</label>
+              </div>
+          </div>
+          <div class="row">
+              <div class="input-field col s6">
+                  <input type="text" name="FirstName" #FirstName="ngModel" ngModel>
+                  <label>First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input type="text" name="LastName" #LastName="ngModel" ngModel>
+                  <label>Last Name</label>
+                </div>
+          </div>
+          <div class="row">
+              <div class="input-field center col s12">
+                  <button type="submit" class="btn-large btn-submit">Submit</button>
+              </div>
+          </div>
+          
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>
